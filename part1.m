@@ -1,10 +1,11 @@
-input = [ 1 0 0 0]; % [ 1 0 0 0]
+input=randi([0 1],1,1000); % Generating Thousand Random Bit Stream
 
-noise = (1+1).*rand(1,4) -1; % (b-a).*rand(1000,1) + a . Here 'a' is lower and  'b' higher limit
+noise = (1+1).*rand(1,1000) -1; % (b-a).*rand(1000,1) + a . Here 'a' is lower and  'b' higher limit
 
-y=input+noise;
+y=input+noise; % Here Sigma =1 ! Addition of Input Stream and Noise
+
 result=[];
-count=1;
+count=1; % Used for Storing Bits are correct Place 
 
 for i =y
     if (i>0)
