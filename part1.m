@@ -1,12 +1,16 @@
-input=randi([0 1],1,1000); % Generating Thousand Random Bit Stream
+clc;
+clear all;
+close all;
 
-noise = (1+1).*rand(1,1000) -1; % (b-a).*rand(1000,1) + a . Here 'a' is lower and  'b' higher limit
+input=randi([0 1],1,10000); % Generating Thousand Random Bit Stream
+noise = (1+1).*rand(1,10000) -1; % (b-a).*rand(1000,1) + a . Here 'a' is lower and  'b' higher limit
 
 y=input+noise; % Here Sigma =1 ! Addition of Input Stream and Noise
 
 result=[];
 count=1; % Used for Storing Bits are correct Place 
 
+% Converting 'Y' to Binary.
 for i =y
     if (i>0)
         result(count)=1;
