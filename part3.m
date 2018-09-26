@@ -114,4 +114,14 @@ for sig=sigma
     pos1=pos1+1;
 end
 
+figure;
+semilogy(sigma,error_rate_Repeatation/100);
+title('Logarithmic Graph of Sigma VS Error Rate (3 BIT Repetation)');
+xlabel('Varience');
+ylabel('Error Rate');
 
+figure;
+semilogy(sigma,error_rate_WithoutRepeat/100);
+title('Logarithmic Graph of Sigma VS Error Rate (NO Repetation)');
+xlabel('Varience');
+ylabel('Error Rate');
