@@ -131,3 +131,9 @@ semilogy(sigma,error_rate_WithoutRepeat/100);
 title('Logarithmic Graph of Sigma VS Error Rate (NO Repetation)');
 xlabel('Varience');
 ylabel('Error Rate');
+
+figure;
+semilogy(sigma,error_rate_WithoutRepeat/100,sigma,error_rate_Repeatation/100);
+xlabel('Varience');
+ylabel('Error Rate');
+title('Red: Repetation && Blue: No-Repeation');
