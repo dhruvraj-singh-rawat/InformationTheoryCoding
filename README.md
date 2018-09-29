@@ -33,20 +33,20 @@ e) Find out total error _2 between y and x.
 f) find error rate = number error/total bits transmitted.
 
 
-### 2. Which error is greater error_1 or error_2 ? Why?
+#### 2. Which error is greater error_1 or error_2 ? Why?
 
 
-### 3. Repeat the exp. For different noise variances like 1, 0.5, 0.25, 0.125. or SNR DB =0 , 2, 4, 6, 8..20.
+#### 3. Repeat the exp. For different noise variances like 1, 0.5, 0.25, 0.125. or SNR DB =0 , 2, 4, 6, 8..20.
 ### using Snr_dB = 10 log (S/sigma^2) Take S = 1 in one case and take Sigma^2 = 1 in other case.
 
 
-### 4. Plot logarithmic graph(use semilogy matlab function) for variance(x axis) Vs (error/total
-### transmitted bits).
+#### 4. Plot logarithmic graph(use semilogy matlab function) for variance(x axis) Vs (error/total
+#### transmitted bits).
 
 
-### 5. Mention the advantage and disadvantage of above experiment.
+#### 5. Mention the advantage and disadvantage of above experiment.
 
 
-### 6. Make a generalize program where each bit can be coded as any arbitrary length. Like 0 can
-### be”0000” or “00000” and similar for bit 1.
-### 7. Conclude what is coding gain.
+#### 6. Make a generalize program where each bit can be coded as any arbitrary length. Like 0 can
+#### be”0000” or “00000” and similar for bit 1.
+#### 7. Conclude what is coding gain.
