@@ -20,12 +20,18 @@ e) find error rate = number error/total bits transmitted.
 
 
 a) Take a binary sequence of any length (for ex.100).
+
 b) Transmit every bit if 0 as “-1,-1,-1” and if 1 as “1,1,1”
+
 c) Add white Gaussian noise using randn function to generated 3000 length sequence.
+
 d) Receive y seq. at receiver and take binary decision from average of 3 bits at a time( if
 received noisy bit > 0 then 1, else 0).
+
 e) Find out total error _2 between y and x.
+
 f) find error rate = number error/total bits transmitted.
+
 
 ### 2. Which error is greater error_1 or error_2 ? Why?
 
