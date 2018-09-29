@@ -5,10 +5,15 @@
 #### Case 1.
 
 a) Take a binary sequence of any length (for ex.1000).
+
 b) Add white Gaussian noise using randn function.
+
 c) Receive y seq. at receiver and take binary decision ( if received noisy bit > 0 then 1, else 0).
+
 d) Find out total error_1 between y and x.
+
 e) find error rate = number error/total bits transmitted.
+
 
 
 #### Case 2.
