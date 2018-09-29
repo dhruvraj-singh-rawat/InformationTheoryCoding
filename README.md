@@ -37,7 +37,7 @@ f) find error rate = number error/total bits transmitted.
 
 
 #### 3. Repeat the exp. For different noise variances like 1, 0.5, 0.25, 0.125. or SNR DB =0 , 2, 4, 6, 8..20.
-### using Snr_dB = 10 log (S/sigma^2) Take S = 1 in one case and take Sigma^2 = 1 in other case.
+#### using Snr_dB = 10 log (S/sigma^2) Take S = 1 in one case and take Sigma^2 = 1 in other case.
 
 
 #### 4. Plot logarithmic graph(use semilogy matlab function) for variance(x axis) Vs (error/total
