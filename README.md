@@ -1,6 +1,8 @@
 
 ## ITC (Channel Encoder) : Simulation Problems
-### 1. What is Coding Gain. Let’s find out:
+
+
+#### 1. What is Coding Gain. Let’s find out:
 
 #### Case 1.
 
